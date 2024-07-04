@@ -97,7 +97,6 @@ compatible_property_only(`
     get_prop({coredomain appdomain shell}, exported3_default_prop)
     get_prop({coredomain appdomain shell}, exported3_radio_prop)
     get_prop({coredomain appdomain shell}, exported3_system_prop)
-    get_prop({coredomain appdomain shell}, exported_camera_prop)
     get_prop({coredomain appdomain shell}, userspace_reboot_config_prop)
     get_prop({coredomain shell}, userspace_reboot_exported_prop)
     get_prop({coredomain shell}, userspace_reboot_log_prop)

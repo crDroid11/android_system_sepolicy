@@ -45,7 +45,6 @@
     device_config_window_manager_native_boot_prop
     device_config_configuration_prop
     emergency_affordance_service
-    exported_camera_prop
     fastbootd_protocol_prop
     file_integrity_service
     fwk_automotive_display_hwservice

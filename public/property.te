@@ -116,7 +116,6 @@ compatible_property_only(`
 system_vendor_config_prop(apk_verity_prop)
 system_vendor_config_prop(cpu_variant_prop)
 system_vendor_config_prop(exported_audio_prop)
-system_vendor_config_prop(exported_camera_prop)
 system_vendor_config_prop(exported_config_prop)
 system_vendor_config_prop(exported_default_prop)
 system_vendor_config_prop(exported3_default_prop)
@@ -470,16 +469,6 @@ compatible_property_only(`
     -vendor_init
   } {
     exported_bluetooth_prop
-  }:property_service set;
-
-  neverallow {
-    domain
-    -coredomain
-    -hal_camera_server
-    -cameraserver
-    -vendor_init
-  } {
-    exported_camera_prop
   }:property_service set;
 
   neverallow {
